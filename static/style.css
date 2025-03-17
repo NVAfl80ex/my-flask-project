@@ -1,0 +1,51 @@
+/* Общие стили для всей страницы */
+body {
+    background-color: #f8f9fa;  /* Светло-серый фон */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Заголовок */
+h1 {
+    color: #333;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+/* Обычный текст */
+p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* Стили для меню */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f8d210;
+}
+
